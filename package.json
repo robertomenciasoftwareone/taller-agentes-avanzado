@@ -1,0 +1,15 @@
+{
+  "name": "taller-agentes-avanzado",
+  "version": "1.0.0",
+  "description": "Taller Jornada 2 - Orquestación de Agentes, Subagentes y Skills",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node init-db.js",
+    "mcp": "node skills/mcp-server/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "pg": "^8.11.0"
+  }
+}

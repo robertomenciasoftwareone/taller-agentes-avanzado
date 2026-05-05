@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "PostgresSoporte": {
+      "command": "node",
+      "args": ["${workspaceFolder}/skills/mcp-server/index.js"]
+    }
+  }
+}
